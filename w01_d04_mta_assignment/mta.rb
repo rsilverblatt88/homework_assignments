@@ -30,7 +30,7 @@ def total_stops
     puts "Which stop would you like to get on at?"
     entry_stop = gets.chomp
     entry_index = mta[:l_line].index(entry_stop)
-    stops_until_us = mta[:l_line].index("Union Square") -
+    # stops_until_us = mta[:l_line].index("Union Square") -
 
   elsif origin_line == "N"
     puts n_line_stops
